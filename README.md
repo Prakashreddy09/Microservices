@@ -1,11 +1,16 @@
-# Creating a Microservices Architecture with Python and Kubernetes
+# Small Microservies Application using Python, Docker, Kubernetes
 
-## Also learn about system design
+## The Application is Video toi MP3 service
 
-## Technologies used:
-    - Python
+## Tech Stack
+    - Python -> flask
     - Docker
     - Kubernetes
-    - MySQL
+    - RabbitMQ
+    - Mysql
     - Mongodb
-    - RabbitMq
+
+## The services in the application are
+    - Auth service ( For Authentication using JWT's)
+    - Video to mp3 service
+    - Notification service
